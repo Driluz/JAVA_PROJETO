@@ -1,0 +1,114 @@
+package TESTE_JAVA;
+
+public class Desafio_NInja {
+    public static void main(String[] args) {
+
+        String ninja1Nome = "Konohamaru Sarutobi";
+        String ninja2Nome = "Kakashi Hatake";
+        String ninja3Nome = "Minato Namikaze";
+        int ninja1Idade = 14;
+        int ninja2Idade = 26;
+        int ninja3Idade = 22;
+        String missao1Nome = "Escolta";
+        String missao2Nome = "Resgate";
+        String missao3Nome = "Invasao";
+        String nivelMissaoD = "D";
+        String nivelMissaoA = "A";
+        String nivelMissaoS = "S";
+        String rankGenin = "Genin";
+        String rankJounin = "Jounin";
+        String rankHokage = "Hokage";
+        System.out.println("--------------------------------------------------------");
+        System.out.println("Delegação de Missões:");
+        System.out.println("********************************************************");
+        System.out.println("\nNome do ninja: " + ninja1Nome);
+        System.out.println("Idade do ninja: " + ninja1Idade);
+        System.out.println("Rank: " + rankGenin);
+        System.out.println("--------------------------------------------------------");
+        System.out.println("Missão do ninja: " + missao1Nome);
+        System.out.println("\nRank da missão: " + nivelMissaoD);
+        if (rankGenin.equals(rankGenin) && nivelMissaoD.equals(nivelMissaoD)) {
+            System.out.println("\nO Ninja pode concluir a missão!");
+        } else {
+            System.out.println("\nO Ninja Não pode concluir a missão!");
+        }
+
+        System.out.println("\nMissão do ninja: " + missao2Nome);
+        System.out.println("\nRank da missão: " + nivelMissaoA);
+        if (rankGenin.equals(rankJounin) && nivelMissaoA.equals(nivelMissaoA)) {
+            System.out.println("\nO Ninja pode concluir a missão!");
+        } else {
+            System.out.println("\nO Ninja Não pode concluir a missão!");
+        }
+
+        System.out.println("\nMissão do ninja: " + missao3Nome);
+        System.out.println("\nRank da missão: " + nivelMissaoS);
+        if (rankGenin.equals(rankHokage) && nivelMissaoS.equals(nivelMissaoS)) {
+            System.out.println("\nO Ninja pode concluir a missão!");
+        } else {
+            System.out.println("\nO Ninja Não pode concluir a missão!");
+        }
+
+        System.out.println("--------------------------------------------------------");
+        System.out.println("********************************************************");
+        System.out.println("\nNome do ninja: " + ninja2Nome);
+        System.out.println("Idade do ninja: " + ninja2Idade);
+        System.out.println("Rank: " + rankJounin);
+        System.out.println("--------------------------------------------------------");
+        System.out.println("\nMissão do ninja: " + missao1Nome);
+        System.out.println("\nRank da missão: " + nivelMissaoD);
+        if (rankJounin.equals(rankJounin) && nivelMissaoD.equals(nivelMissaoD)) {
+            System.out.println("\nO Ninja pode concluir a missão!");
+        } else {
+            System.out.println("\nO Ninja Não pode concluir a missão!");
+        }
+
+        System.out.println("\nMissão do ninja: " + missao2Nome);
+        System.out.println("\nRank da missão: " + nivelMissaoA);
+        if (rankJounin.equals(rankJounin) && nivelMissaoA.equals(nivelMissaoA)) {
+            System.out.println("\nO Ninja pode concluir a missão!");
+        } else {
+            System.out.println("\nO Ninja Não pode concluir a missão!");
+        }
+
+        System.out.println("\nMissão do ninja: " + missao3Nome);
+        System.out.println("\nRank da missão: " + nivelMissaoS);
+        if (rankJounin.equals(rankHokage) && nivelMissaoS.equals(nivelMissaoS)) {
+            System.out.println("\nO Ninja pode concluir a missão!");
+        } else {
+            System.out.println("\nO Ninja Não pode concluir a missão!");
+        }
+
+        System.out.println("--------------------------------------------------------");
+        System.out.println("********************************************************");
+        System.out.println("\nNome do ninja: " + ninja3Nome);
+        System.out.println("Idade do ninja: " + ninja3Idade);
+        System.out.println("Rank: " + rankHokage);
+        System.out.println("--------------------------------------------------------");
+        System.out.println("\nMissão do ninja: " + missao1Nome);
+        System.out.println("\nRank da missão: " + nivelMissaoD);
+        if (rankHokage.equals(rankHokage) && nivelMissaoD.equals(nivelMissaoD)) {
+            System.out.println("\nO Ninja pode concluir a missão!");
+        } else {
+            System.out.println("\nO Ninja Não pode concluir a missão!");
+        }
+
+        System.out.println("\nMissão do ninja: " + missao2Nome);
+        System.out.println("\nRank da missão: " + nivelMissaoA);
+        if (rankHokage.equals(rankHokage) && nivelMissaoA.equals(nivelMissaoA)) {
+            System.out.println("\nO Ninja pode concluir a missão!");
+        } else {
+            System.out.println("\nO Ninja Não pode concluir a missão!");
+        }
+
+        System.out.println("\nMissão do ninja: " + missao3Nome);
+        System.out.println("\nRank da missão: " + nivelMissaoS);
+        if (rankHokage.equals(rankHokage) && nivelMissaoS.equals(nivelMissaoS)) {
+            System.out.println("\nO Ninja pode concluir a missão!");
+        } else {
+            System.out.println("\nO Ninja Não pode concluir a missão!");
+        }
+
+    }
+}
+
